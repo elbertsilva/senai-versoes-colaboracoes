@@ -1,0 +1,16 @@
+
+pronto abre um notepad escreve testegit escreve qualquer coisa
+
+depois da um git add .
+git commit -m "testando"
+git push origin santos gabriele
+
+
+so pra ver se ja esta subindo ,
+ e se aparece pra mim, ta bom , q
+uando terminar me avisa no grupo, 
+qualquer coisa te ajudo 
+e pra vc ja treinar como subir 
+
+quando fizer entra no git e ve se sua pasta salvou na que te add beleza
+voce consegue !
