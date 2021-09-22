@@ -29,5 +29,5 @@ var PesodaPecaemGramas =50;
 if (PesodaPecaemGramas >100){
     console.log("peso insulficiente");
 } else{
-    console.log("pelo suficiente")
+    console.log("peso suficiente")
 }
