@@ -1,0 +1,51 @@
+VERSIONAMENTO:
+
+//vou usar Elbert como exemplo
+
+GITHUB = É uma ferramenta de versionamento.
+SISTEMA DE CONTROLE DE VERSÂO CENTRALIZADO = Apenas 1 local armazenado.
+SISTEMA DE CONTROLE DE VERSÂO DISTRIBUÍDO = Cópias no servidor.
+
+COMMANDOS: /*
+git config --global user.name "Elbert"  = para congigurar o nome globalmente.
+git config --global user.email "elbert@gmail..." = para configurar o email globalmente.
+git init =  para iniciar o git, instalar a pasta localmente.
+git add . = adiciona todas as pastas
+git status = para ver o status atual
+git commit -m "example" = aqui faz a edição para subir.
+git branch -b "Elbert" = para criar a branch
+git branch = voce olha as branch que existe , e na qual está
+git checkout elbert = voce muda a branch para fazer o que precisa
+git pull origin Elbert =  você copia o arquivo daquela branch
+git push = voce envia os arquivos para sua branch
+git remote add origin https://github.com/elbertsilva/senai-versoes-colaboracoes = entra na pasta do github e copia o caminho e cola depois de origin, caso seja o primeiro commit, ele envia direto para o repositório.
+*/
+
+1-Examplo:
+1° commit: 
+
+Vou na pasta que criei 
+mouse direito, clica em git bash
+git init
+git config --global user.name "Elbert"  
+git config --global user.email "elbert@gmail..." 
+git add .
+git status
+git remote add origin https://github.com/elbertsilva/senai-versoes-colaboracoes 
+git commit -m "primeiro commit"
+git push origin Elbert
+
+2-Example:
+with 2 branch , Elbert e master, caso ja tenha criado e salvo no git: 
+Vou na pasta que criei 
+mouse direito, clica em git bash
+git branch //vai aparecer a master
+git branch -b "Elbert" //vai criar minha branch
+git branch //vai aparecer Elbert en verde
+git checkout master 
+git pull 
+git checkout Elbert
+git pull origin master
+git push 
+// pronto os arquivos do master agora estara na sua branch(na sua pasta)
+
