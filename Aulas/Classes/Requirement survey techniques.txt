@@ -1,0 +1,56 @@
+REQUIREMENT SURVEY TECHNIQUES:
+
+BRIEFING = Collects initial data or information, basis for project development, date, deadline, delivery.
+BRAINSTORM = Technique used to raise suggestions and ideas in order to solve the problem.
+QUESTIONNAIRE = List of questions about the project requirements, question about the implementation of the product or service in the market.
+INTERVIEW = Techniques to collect data from a user or service to identify a problem, based on their observations.
+ETHNOGRAPHY = Observation techniques used to analyze social and cultural requirements of the tasks performed in an organization.
+WORKSHOP = Meeting composed of the team of analysts of the company hired to develop the product or service and representatives
+in order to specify the needs of the project.
+PROTOTYPING = Preliminary or initial model of the product that has some features that it will have.
+
+SYMBOL = It is the design that identifies the company.
+LOGO = It is the identification of the company, eg PEPSI
+BRAND = It is the design and identification together.
+
+USER EXPERIENCE UI = It is the creation and development of the interface, it addresses the way the user will interact,
+focuses on the interface of an application or website.
+USER EXPERIENCE UX = Study the trajectory or user interaction with the product or service,
+observes this and other aspects, from the path the user takes to reach the final goal,
+ up to previous experience the person had with that product or service.
+
+USER-CENTRIC DESIGN:
+It is the process that focuses on meeting the customer's needs.
+1- Information architecture.
+2- Visual design.
+3- Functionality.
+4- usability.
+5- Typography.
+6- User-ui interface.
+7- Content strategy.
+8- Interactive design.
+
+TARGET PUBLIC = Who will be directed the service.
+IDENTIFICATION OF REQUIREMENTS = Understand what the user's needs, goals or desires are.
+SOLUTION CREATION = Develop a solution that meets the requirements of users, you can apply the technique
+brainstorming.
+PROTOTYPE CREATION = Process that transforms into a visual prototype that will be a test model for evaluation.
+EVALUATION = The user will evaluate the system they are interacting with.
+
+INTERACTIVE DESIGN
+It is the process that is concerned with the user's interaction with the service or system.
+DESIGN = Aesthetic part, which the user sees which he will interact with,
+consists of elements such as: texts, links, images, videos, search bar,
+color composition, which can cause positive or negative emotions in our user.
+USABILITY = study of how the user navigates and interacts with the service or system,
+ease that it will have in this navigation.
+FUNCTIONALITY = Utility of the service, or system, needs to meet the user's needs.
+LEGALITY = Process to make the system easily understandable, of fail understanding.
+
+TARGET AUDIENCE = More comprehensive, plural.
+PERSONA = Customer specific, more detail about it.
+PROTAGONIST = User who will interact with the system.
+Plot = Message that the system wants to transmit, it must be objective, of course, so as not to cause confusion.
+TOOLS = These are the elements that make up the layout, such as buttons, texts, icons...
+CLIMAX and ANTCLIMAX = These are user experiences, whether positive or negative.
+PROTOTYPING = Act of creating a graphical interface that aims to carry out the test of the site being developed.
