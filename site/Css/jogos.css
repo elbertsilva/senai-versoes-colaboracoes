@@ -17,28 +17,48 @@
   grid-column: 1/-1;
 }
 #img1 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100%;
   border-radius: 10px;
   padding: 5px;
   width: 100%;
 }
 #img2 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 10px;
   height: 100%;
   padding: 5px;
   width: 100%;
 }
 #img3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 10px;
   padding: 5px;
   width: 100%;
 }
 #img4 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 10px;
   padding: 5px;
   width: 100%;
 }
 #img5 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 10px;
   padding: 5px;
   width: 100%;
