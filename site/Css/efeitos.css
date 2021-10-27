@@ -1,0 +1,53 @@
+#preloader {
+  background-color: #ccc;
+  position: fixed;
+  top: 0;
+  left: 0%;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+}
+.loading {
+  border: 16px solid aqua;
+  border-radius: 50%;
+  border-top: 16px solid #424242;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 1.2s linear infinite;
+  animation: spin 1.2s linear infinite;
+  margin: 0px auto;
+  position: absolute;
+  top: 200px;
+  right: 20px;
+  left: 0;
+}
+@media (max-width: 1400px) {
+  .loading {
+    top: 100px;
+  }
+}
+
+@media (max-width: 900px) {
+  .loading {
+    top: 100px;
+    right: 0;
+  }
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
