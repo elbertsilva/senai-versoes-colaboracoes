@@ -1,0 +1,56 @@
+TÉCNICAS DE LEVANTAMENTO DE REQUISITOS:
+
+BRIEFING = Coleta os dados ou informações iniciais, base para o desinvolvimento de projeto, data, prazo, entrega.
+BRAINSTORM = Técnica utilizada para levantar sujestões e ideias, a fim de silucionar o problema.
+QUESTIONÁRIO = Lista de perguntas sobre os requisitos do projeto, pergunta sobre a implementação do produto ou servico no mercado.
+ENTREVISTA = Técnicas para coletar os dados do usuário de um ou serviço para identificação de problema, a partir de suas observações.
+ETNOGRAFIA = Técnicas de observação utilizadas para analisar requisitos sociais e culturais das tarefas desepenhadas numa organização.
+WORKSHOP = Reunião composta pela equipe de analistas da empresa contratada para desenvolvimento do prduto ou serviço e por representantes
+do cliete, a fim de especificar as necessidades do projeto.
+PROTOTIPAGEM = Modelo preliminar ou inicial do produto que apresenta algumas funcionalidades que ele terá.  
+
+SÍMBOLO = É o desenho que identifica a empresa.
+LOGO = É a identificação da empresa , ex: PEPSI
+MARCA = É o desenho e a identificação juntos.
+
+USER EXPERIENCE UI = É a criação e desenvolvimento de interface, aborda a maneira com o qual o usuário ira interagir,
+tem como foco a interface de um aplicativo ou site.
+USER EXPERIENCE UX = Estuda a trejetória ou a interação do usuário com o produto ou serviço, 
+observa esse e outros aspectos, desde o caminho que o usuário faz para chegar ao objetivo final,
+ até experiência anterior que a pessoa teve com aquele produto ou serviço.
+
+DESIGN CENTRADO NO USUÁRIO:
+É o processo que foca em atender as necessidades do cliente.
+1- Arquitetura da informação.
+2- Design visual.
+3- Funcionalidade.
+4- usabilidade.
+5- Tipografia.
+6- Interface do suário-ui.
+7- Estratégia de conteúdo.
+8- Design interativo.
+
+PUBLICO ALVO = Quem será direcionado o serviço.
+IDENTIFICAÇÃO DOS REQUISITOS = Compreender quais são as necessidades, os objetivos ou desejo do usuário.
+CRIAÇÃO DE SOLUÇÃO = Desenvolver uma solução que atenda os requisitos dos usuários, pode aplicar a tecnica 
+brainstorning.
+CRIAÇÃO DE PROTOTIPO = Processo que transforma em protótipo visual que será um modelo teste, para avaliação.
+AVALIAÇÃO = O usuáro avaliará o sistema no qual está interagindo.
+
+DESIGN INTERATIVO
+É o processo que se preoculpa com a interação do usuário com o serviço ou sistema.
+DESIGN = Parte estética, que o usuário ve com qual ele irá interagir, 
+é composto por elementos como: textos, links, imagens, vídeos, barra de pesquisa,
+composição de cores, os quais podem causar emoções positivas ou negativas no nosso usuário.
+USABILIDADE = estudo de como o usuário navega e interage com o serviçço ou sistema , 
+facilidade que ele terá nessa navegação.
+FUNCIONALIDADE = Utilidade do serviço, ou sistema, precisa atender as necessidades do usuário.
+LEGALIDADE = Processo para deixar o sistema facilmemte compreensível, de fail entendimento.
+
+PUBLICO ALVO = Mais abrangente, plural.
+PERSONA = Específico ao cliente, mais detalhe sobre o mesmo.
+PROTAGONISTA = Usuário que irá interagir com o sistema.
+ENREDO = Mesnsagem que o sistema deseja transmitir, precisa ser objetivo, claro, para não causar confusão.
+FERRAMENTAS = São os elementos que compõe o layout, como botões, texttos, icones...
+CLIMAX e ANTCLIMAX = São experiências do usuário, seja ela positiva ou negativa.
+PROTOTIPAGEM = Ato de criar uma interface gráfica que tem por objetivo realização do teste do site que está sendo desenvolvido.

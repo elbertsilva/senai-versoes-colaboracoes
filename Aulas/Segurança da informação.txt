@@ -1,0 +1,25 @@
+SEGURANÇA DA INFORMAÇÃO
+
+O que é MALWARE ?
+É uma combinação de palavras "malicioso" e software em inglês em inglês,
+ usado para escrever qualquer programa malicioso no computador ou dispositivo móveis.
+
+ENGENHARIA SOCIAL = É quando pessoas são enganadas, tentam se aproveitar de informações como produtos novos,
+mais relacionado ao processo do que dados.
+
+PHISHING = lones de emails e vendas, programas maliciosos, dados falsos, fazem você clicar em links falsos,
+jogam uma isca, para a pessoa cair no golpe.(ataque pela internet).
+
+VISHING = Ligações falsas, pessoas que tentam dar o golpe por telefone.(ataque por telefone).
+
+VÍRUS = Capacidade de inferctar, diversos arquivos em um computador.
+
+WORMS = Não precisa de ajuda humana para se propagar e infectar, eles infectam e usam redes de computadores para se propagar.
+
+VESÃO BETA = Vesão em teste.
+
+CAVALO DE TRÓIA = Programas se escodem mascarados como arquivo de sófter legitimos.
+
+RANSOWARE = Ele pega suas informações e mistura todas as pastas e salva em criptografia, eles vem como phishing via links  emails.
+
+SMISHING = Roubos de mensagens sigilosas através de mensagem de texto.

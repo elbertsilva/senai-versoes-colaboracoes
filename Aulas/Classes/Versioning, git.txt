@@ -1,0 +1,53 @@
+VERSIONING:
+
+// I'll use Elbert as an example
+
+GITHUB = It is a versioning tool.
+CENTRALIZED VERSION CONTROL SYSTEM = Only 1 stored location.
+DISTRIBUTED VERSION CONTROL SYSTEM = Copies on the server.
+
+COMMANDS: /*
+git config --global user.name "Elbert" = to set the name globally.
+git config --global user.email "elbert@gmail..." = to configure email globally.
+git init = to start git, install the folder locally.
+git add . = add all folders
+git status = to see current status
+git commit -m "example" = here do the edit to upload.
+git branch -b "Elbert" = to create the branch
+git branch = you look at the branches that exist , and on which it is
+git checkout elbert = you change the branch to do what you need
+git pull origin Elbert = you copy the file from that branch
+git push = you send files to your branch
+git remote add origin https://github.com/elbertsilva/senai-versoes-colaboracoes = enter the github folder and copy the path and paste after origin, if it is the first commit, it sends it straight to the repository.
+
+*/
+
+
+1-Example:
+1° commit:
+
+I go to the folder I created
+right mouse click git bash
+git init
+git config --global user.name "Elbert"
+git config --global user.email "elbert@gmail..."
+git add .
+git status
+git remote add origin https://github.com/elbertsilva/senai-versoes-colaboracoes
+git commit -m "first commit"
+Git push origin Elbert
+
+2-Example:
+with 2 branch , Elbert and master, if you have already created and saved in git:
+
+I go to the folder I created
+right mouse click git bash
+git branch //will show up to master
+git branch -b "Elbert" //will create my branch
+git branch // Elbert will appear in green
+git checkout master
+git pull
+git checkout elbert
+git pull origin master
+git push
+// done the master files will now be in your branch(in your folder)

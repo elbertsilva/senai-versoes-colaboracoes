@@ -1,0 +1,25 @@
+INFORMATION SECURITY
+
+What is MALWARE?
+It's a combination of "malicious" words and English software in English,
+ used to write any malicious program on the computer or mobile device.
+
+SOCIAL ENGINEERING = It's when people are tricked, they try to take advantage of information like new products,
+more process-related than data.
+
+PHISHING = emails and sales lones, malicious programs, fake data, make you click on fake links,
+throw a bait, for the person to fall into the scam. (attack over the internet).
+
+VISHING = Fake calls, people who try to make the scam over the phone.(attack by phone).
+
+VIRUS = Ability to infect several files on a computer.
+
+WORMS = It doesn't need human help to spread and infect, they infect and use computer networks to spread.
+
+BETA VESION = Version under test.
+
+TROJAN HORSE = Programs hide masquerading as legitimate software file.
+
+RANSOWARE = ​​It takes your information and mixes all the folders and saves it in encryption, they come as phishing via email links.
+
+SMISHING = Theft of sensitive messages via text message.
