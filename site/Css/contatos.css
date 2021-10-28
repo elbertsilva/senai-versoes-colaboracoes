@@ -12,7 +12,12 @@
 }
 #contatos {
   align-items: center;
-  background: aqua;
+  /* background: aqua; */
+  background: linear-gradient(
+    90deg,
+    rgba(197, 245, 249, 1) 0%,
+    rgba(0, 220, 255, 1) 100%
+  );
   border: 3px solid #000;
   border-radius: 10px;
   display: flex;
