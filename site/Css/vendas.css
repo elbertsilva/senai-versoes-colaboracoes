@@ -69,11 +69,11 @@ body {
 
 .popup {
   width: 50%;
-  height: 91%;
+  height: 100%;
   background: #fff;
   z-index: 9999;
   position: absolute;
-  top: 3%;
+  top: 0%;
   left: 25%;
   border-radius: 10px;
   padding: 20px;
