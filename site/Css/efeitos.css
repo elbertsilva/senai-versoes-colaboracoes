@@ -9,14 +9,14 @@
 .loading {
   border: 16px solid aqua;
   border-radius: 50%;
-  border-top: 16px solid #424242;
+  border-top: 16px solid #000;
   width: 120px;
   height: 120px;
   -webkit-animation: spin 1.2s linear infinite;
   animation: spin 1.2s linear infinite;
   margin: 0px auto;
   position: absolute;
-  top: 200px;
+  top: 400px;
   right: 20px;
   left: 0;
 }
