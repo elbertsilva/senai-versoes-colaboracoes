@@ -33,6 +33,21 @@
   padding: 5px;
   width: 8%;
 }
+#inputSearch {
+  background: #fff;
+  padding: 5px;
+}
+#iconSearch {
+  background: #fff;
+  position: absolute;
+  right: 10px;
+}
+.search {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
 #buttonSair {
   background: #000;
   border-radius: 10px;
