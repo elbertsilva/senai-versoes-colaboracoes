@@ -118,7 +118,8 @@
   width: 100%;
 }
 #div3 {
+  background: blue;
+  cursor: pointer;
   display: flex;
   justify-content: flex-start;
-  background: blue;
 }
