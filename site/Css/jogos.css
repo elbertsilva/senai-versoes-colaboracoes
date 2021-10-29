@@ -17,6 +17,7 @@
   grid-column: 1/-1;
 }
 #img1 {
+  animation: ccc 1.2s ease forwards;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -26,7 +27,17 @@
   padding: 5px;
   width: 100%;
 }
+@keyframes ccc {
+  from {
+    transform: scale(0, 0);
+  }
+  to {
+    transform: initial;
+  }
+}
+
 #img2 {
+  animation: ccc 1.2s ease forwards;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -37,6 +48,7 @@
   width: 100%;
 }
 #img3 {
+  animation: ccc 1.2s ease forwards;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -46,6 +58,7 @@
   width: 100%;
 }
 #img4 {
+  animation: ccc 1.2s ease forwards;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -55,6 +68,7 @@
   width: 100%;
 }
 #img5 {
+  animation: ccc 1.2s ease forwards;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
