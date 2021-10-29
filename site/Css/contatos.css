@@ -17,12 +17,32 @@
 }
 #contatos {
   align-items: center;
+  background: #fff;
   box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
     0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
   border-radius: 10px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  height: 50%;
+  justify-items: center;
+  /* width: 30%; */
+  padding: 50px;
+  position: relative;
+  /* font-size: 1rem; */
+  gap: 10px;
+}
+#titulo {
+  background-color: #fff;
   display: flex;
-  flex-direction: column;
-  height: 80vh;
-  justify-content: center;
-  width: 30%;
+  top: 4%;
+  left: 30%;
+  position: absolute;
+}
+span.material-icons {
+  background-color: #fff;
+}
+.divs span,
+.divs p,
+h1 {
+  background: #fff;
 }
