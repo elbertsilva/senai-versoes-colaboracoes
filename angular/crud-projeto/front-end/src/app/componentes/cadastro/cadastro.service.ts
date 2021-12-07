@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
-import {MatSnackBar} from '@angular/material/snack-bar';
-import {HttpClient} from '@angular/common/http';
-import { Cadastro } from 'src/componentes/cadastro/cadastro.model';
+import {MatSnackBar} from '@angular/material/snack-bar'
+import {HttpClient} from "@angular/common/http"
+import {Cadastro} from './cadastro-create/cadastro.model'
 import { Observable } from 'rxjs';
 
 @Injectable({
@@ -9,16 +9,16 @@ import { Observable } from 'rxjs';
 })
 export class CadastroService {
 
-  baseUrl = "http://localhost:3001/login"
+  baseUrl = 'http://localhost:3001/login'
 
-  constructor(private snackBar: MatSnackBar, private http: HttpClient ) { 
+  constructor(private snackBar: MatSnackBar, private http: HttpClient) { 
 
   }
   showMessege(msg: string): void{
-    this.snackBar.open(msg, 'X',{
+    this.snackBar.open(msg, 'X', {
       duration: 6000,
       verticalPosition: "bottom"
-    })
+    });
   }
 
   create(cadastro: Cadastro): Observable<Cadastro>{
