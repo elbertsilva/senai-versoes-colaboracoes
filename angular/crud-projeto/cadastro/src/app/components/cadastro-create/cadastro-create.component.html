@@ -1,0 +1,48 @@
+<div class="container">
+  <div class="geral">
+    <div class="form-group">
+      <label>Usuário</label>
+      <input
+        type="text"
+        [(ngModel)]="cadastro.usuario"
+        class="form-control"
+        name="usuário"
+      />
+      <label>Senha</label>
+      <input
+        type="password"
+        [(ngModel)]="cadastro.senha"
+        class="form-control"
+        name="senha"
+      />
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-12" style="margin: 0 auto">
+        <hr class="mb-4" />
+        <div class="botoes">
+          <button
+            class="btn btn-cadastrar"
+            (click)="createCadastro()"
+            color="warn"
+          >
+            Cadastrar
+          </button>
+          <button
+            class="btn btn-cadastrar"
+            (click)="cancelarCadastro()"
+            color="accent"
+          >
+            Cancelar
+          </button>
+          <button
+            class="btn btn-cadastrar"
+            (click)="tabelaCadastro()"
+            color="accent"
+          >
+            Todos os cadastros
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
