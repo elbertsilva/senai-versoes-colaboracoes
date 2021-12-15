@@ -1,12 +1,7 @@
 {
   "login": [
     {
-      "usuario": "",
-      "senha": " ",
-      "id": 1
-    },
-    {
-      "usuario": "teste1",
+      "usuario": "teste2",
       "senha": "12345",
       "id": 2
     }
