@@ -22,15 +22,36 @@ export class CadastroCreateComponent implements OnInit {
 
   ngOnInit(): void {}
   showMessege(): void {
-    this.snackBar.openFromComponent(PizzaPartyComponent, {
+    this.snackBar.openFromComponent(PopupSuccess, {
       duration: 6000,
       verticalPosition: 'bottom',
     });
   }
-  createCadastro(): void {
-    this.cadastroService.create(this.cadastro).subscribe(() => {
-      this.showMessege();
+  showError(): void {
+    this.snackBar.openFromComponent(PopupError, {
+      duration: 6000,
+      verticalPosition: 'bottom',
     });
+  }
+  showError2(): void {
+    this.snackBar.openFromComponent(PopupError2, {
+      duration: 6000,
+      verticalPosition: 'bottom',
+    });
+  }
+
+  createCadastro(): void {
+    this.cadastroService.create(this.cadastro).subscribe(
+      () => {
+        this.showMessege();
+      },
+      () => {
+        this.showError();
+      },
+      () => {
+        this.showError2();
+      }
+    );
   }
   cancelarCadastro(): void {
     this.router.navigate(['']);
@@ -41,13 +62,39 @@ export class CadastroCreateComponent implements OnInit {
 }
 @Component({
   selector: 'snack-bar-component-example-snack',
-  template: `<span class="example-pizza-party">Usuário Cadastrado!</span>`,
+  template: `<span class="popup-party">Usuário Cadastrado!</span>`,
   styles: [
     `
-      .example-pizza-party {
+      .popup-party {
         color: hotpink;
       }
     `,
   ],
 })
-export class PizzaPartyComponent {}
+export class PopupSuccess {}
+
+@Component({
+  selector: 'snack-bar-component-example-snack',
+  template: `<span class="popup-party">Usuário não Cadastrado!</span>`,
+  styles: [
+    `
+      .popup-party {
+        color: hotpink;
+      }
+    `,
+  ],
+})
+export class PopupError {}
+
+@Component({
+  selector: 'snack-bar-component-example-snack',
+  template: `<span class="popup-party">Usuário não Editado!</span>`,
+  styles: [
+    `
+      .popup-party {
+        color: hotpink;
+      }
+    `,
+  ],
+})
+export class PopupError2 {}
